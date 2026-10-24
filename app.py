@@ -16,7 +16,7 @@ st.markdown(
 
 HERE = pathlib.Path(__file__).parent
 PHOTO = "data:image/jpeg;base64," + base64.b64encode((HERE / "photo.jpg").read_bytes()).decode()
-TEXT = "This meant to be continue"  # change this line to edit the message
+TEXT = "It meant to be played"  # change this line to edit the message
 
 HTML = r"""
 <style>
